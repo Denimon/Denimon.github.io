@@ -28,7 +28,9 @@ code {
     background-color: #ffedd5; 
     margin: 0px;
 }
-
+.textbox {
+    margin-top: 100px;
+}
 #footer {
     margin-top:50px; 
     text-align:center; 
@@ -38,10 +40,8 @@ code {
     width: 500px; 
     height: 500px; 
 } 
-.text { 
-    float: left; 
+.text {  
     text-align: start; 
-    margin-top: 100px; 
 } 
 .fa { 
     padding: 25px; 
