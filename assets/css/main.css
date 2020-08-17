@@ -61,15 +61,7 @@ code {
 #myDIV {
     display: none;
 }
-
-#wochImg {
-background-color: black;
-height: 100px;
-width: 200px;
-}
-
-#podSaintImg{
-    background-color: white;
-    height: 100px;
-    width: 100px;
+.portfolioImg{
+    height: 300px;
+    width: 150px;
 }
