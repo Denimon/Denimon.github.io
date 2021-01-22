@@ -2,22 +2,20 @@
 html{
     background: #ffedd5;
 }
-
-a { 
-    color: #0366d6; 
-    display: inline;
+h3 {
+    color: #17817f;
+}
+p > a { 
+    color: #17817f; 
 } 
-p { 
-    padding: 0px; 
-    margin-top: 0px; 
-    margin-bottom:0px;
-} 
+a:hover {
+    color: #000;
+    text-decoration: none !important;
+}
 body { 
     font-family: 'Quicksand', sans-serif; 
 } 
-code {
-    color: #E01A76;
-} 
+
 .btn-primary {
     color: #fff; 
     background-color: #1b6ec2;
@@ -25,19 +23,36 @@ code {
 }
 .container-fluid {
     background-color: #ffedd5; 
-    margin: 0px;
+    margin: 40px;
 }
 .textbox {
     margin-top: 100px;
 }
-#footer {
-    margin-top:50px; 
-    text-align:center; 
+ul {
+    margin-bottom: 2rem !important;
+}
+.button {
+    padding: 10px;
+    background: #17817f;
+    color: #fff;
+    border-radius: 5px;
+}
+.button:hover {
+    background: #000;
+    color: #fff;
+}
+.contact {
+    margin-top: 20px;
+}
+#social {
+    text-align:right; 
 } 
 #jkImage { 
     text-align: center; 
-    width: 500px; 
-    height: 500px; 
+    width: 800px; 
+    height: auto;
+    position: fixed;
+    bottom: 0;
 } 
 .text {  
     text-align: start; 
@@ -54,10 +69,14 @@ code {
 .fa:hover { 
       color: black; 
       opacity: 0.7; 
-      font-size: 32px; 
       text-decoration: none;    
 } 
 
+
+/*------------PORTFOLIO----------*/
+.portfolio {
+    text-align: center;
+}
 #myDIV {
     display: none;
 }
